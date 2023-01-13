@@ -9,12 +9,6 @@
 
 'use strict';
 
-                                                     
-             
-           
-                     
-                    
-                                   
 
 import {
   createRoot as createRootImpl,
@@ -23,9 +17,9 @@ import {
 } from './';
 
 export function createRoot(
-  container                                       ,
-  options                    ,
-)           {
+  container,
+  options,
+) {
   if (__DEV__) {
     Internals.usingClientEntryPoint = true;
   }
@@ -39,10 +33,10 @@ export function createRoot(
 }
 
 export function hydrateRoot(
-  container                    ,
-  children               ,
-  options                     ,
-)           {
+  container,
+  children,
+  options,
+) {
   if (__DEV__) {
     Internals.usingClientEntryPoint = true;
   }
